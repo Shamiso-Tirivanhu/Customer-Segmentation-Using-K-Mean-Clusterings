@@ -36,19 +36,40 @@ The dataset used in this project contains customer information such as age, gend
 
   ## 4.1. Data Preprocessing
 
-  Data preprocessing involves cleaning the data, handling missing values, and normalizing the features to ensure the K-Means algorithm performs optimally.
+  Data preprocessing involves cleaning the data, handling missing values, and normalizing the features to ensure the K-Means algorithm performs optimally. There total rows in this particular CSV file is 200 rows and 5 columns. The following columns were dropped : Customer ID, Age and Gender as it was apparent to that they were not going to make a significiant contribution in the overall accuracy or precision of the K-Means algorithm.
 
   ## 4.2. K-Means Clustering
 
-  K-Means clustering is an unsupervised machine learning algorithm that partitions the data into K clusters, where each data point belongs to the cluster with the nearest mean.
+  K-Means clustering is an unsupervised machine learning algorithm that partitions the data into K clusters, where each data point belongs to the cluster with the nearest mean. In this particular data set, data was divided into 5 clusters. 
 
   ## 4.3. Evaluation Metrics
 
-  The clustering results are evaluated using metrics such as the silhouette score and the elbow method to determine the optimal number of clusters.
+  The clustering results are evaluated using metrics such as the silhouette score and the elbow method to determine the optimal number of clusters. The number of clusters were subdivided into 5 clusters which displayed insightful insights. These clusters represents the different groups of people and their spending habits in the mall. 
 
 ## 5. Results
 
 The results section presents the identified customer segments, their characteristics, and visualizations of the clusters. Key insights and patterns observed in the data are also discussed.
+
+
+
+
+
+
+
+| Cluster  | Annual Income (USD) range | Spending Score range |
+|-----------|---------------|----------------|
+| Cluster 1 | 55-60 | 40-60 |
+|Cluster 2 | 75-80 | 60-100 |
+| Cluster 3 | 75-140 | 5-40|
+| Cluster 4 | 10-40 | 10-40 |
+| Cluster 5 | 15-40 | 40-100 |
+
+TYhe table above is a representation of the insights in this dataset. We can infer that people who have a lower income have the procluvirty of spending less at the Mall. Understandably so, given most items are expensive and thereby further implying that particular demographic group cannot afford as represented by cluster 4. 
+To circumvent this, the mall could consider having specials or deals in the Mall that caters to cluster 4. Surprisingly, cluster 4 earns a miniscule amount of money, yet that group buys more at the mall. 
+It can be inferred that particular group, despite earning less spends a hefty amouunt possibly because they do not understamd theimportance of living within their means, budgetting and then the overspending. 
+Cluster 2 represents people who earn more and therefore spend more. This might make sense as they probably can affotrd. The mall could look for sudy these people's purchasing habits to find what it is they tend to spend more money on and recommend more or similiar products or services.
+Cluster 1, they earn more, however, they spend less- most probably because they are financially intelligent
+
 
 ## 6. Conclusion
 
