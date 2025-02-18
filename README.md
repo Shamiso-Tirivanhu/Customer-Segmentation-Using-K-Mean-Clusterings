@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Project Overview](#project-overview)
 3. [Data Description](#data-description)
-4. [Methodology](#methodology)
+4. [Methodology](#methodology):
    4.1.1. [Data Preprocessing](#data-preprocessing)
    4.1.2. [K-Means Clustering](#k-means-clusstering)
    4.1.2. [Evaluation Metrics](#evaluation-metrics)
