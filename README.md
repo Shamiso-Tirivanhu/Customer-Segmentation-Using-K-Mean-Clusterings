@@ -50,7 +50,7 @@ The dataset used in this project contains customer information such as age, gend
 
 The results section presents the identified customer segments, their characteristics, and visualizations of the clusters. Key insights and patterns observed in the data are also discussed.
 
- ![Image ait](https://github.com/Shamiso-Tirivanhu/Customer-Segmentation-Using-K-Mean-Clusterings/blob/main/Customer%20Segmentation%20cluster.jpeg)
+ ![https://github.com/Shamiso-Tirivanhu/Customer-Segmentation-Using-K-Mean-Clusterings/blob/main/Customer%20Segmentation%20cluster.jpeg](https://github.com/Shamiso-Tirivanhu/Customer-Segmentation-Using-K-Mean-Clusterings/blob/main/Customer%20Segmentation%20cluster.jpeg)
 
 
 
