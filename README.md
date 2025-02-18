@@ -51,7 +51,7 @@ The dataset used in this project contains customer information such as age, gend
 The results section presents the identified customer segments, their characteristics, and visualizations of the clusters. Key insights and patterns observed in the data are also discussed.
 
 
-!{](images/%20spaces)
+!{](images/CustomerSegementation.jpeg %20spaces)
 
 
 
